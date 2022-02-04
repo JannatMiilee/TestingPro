@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user can login",
+        "description": "",
+        "id": "dell-login-and-search;verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3638857300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "Stepdef_Dell_login.launch_dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5777778700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Mouseover Sign In and click on Sign In",
+            "match": {
+              "location": "Stepdef_Dell_login.mouseiver_Sign_In_and_click_on_Sign_In()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4542054600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter user and password and click login",
+            "match": {
+              "location": "Stepdef_Dell_login.enter_user_and_password_and_click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103342500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify user is logged in",
+            "match": {
+              "location": "Stepdef_Dell_login.verify_user_is_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Verify search result",
+        "description": "",
+        "id": "dell-login-and-search;verify-search-result",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2610928300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Launch dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "Stepdef_Dell_login.launch_dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4769634300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter XPS in search field and click search",
+            "match": {
+              "location": "StepDef_VerifySearchResult.enter_XPS_in_search_field_and_click_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113876800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify search result",
+            "match": {
+              "location": "StepDef_VerifySearchResult.verify_search_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dell login and Search",
+    "description": "",
+    "id": "dell-login-and-search",
+    "keyword": "Feature",
+    "uri": "Dell_login_and_SearchResult.feature"
+  }
+]

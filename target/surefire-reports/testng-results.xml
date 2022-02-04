@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-02T23:50:23 EST" name="Surefire suite" finished-at="2022-02-02T23:50:54 EST" duration-ms="31528">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRunner@1bb5a082]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-02-02T23:50:23 EST" name="Surefire test" finished-at="2022-02-02T23:50:54 EST" duration-ms="31528">
+      <class name="TestRunner.TestRunner">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:TestRunner.TestRunner@1bb5a082]" started-at="2022-02-02T23:50:23 EST" name="launchURL" finished-at="2022-02-02T23:50:26 EST" duration-ms="3644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunner.TestRunner@1bb5a082]" started-at="2022-02-02T23:50:26 EST" name="setUpClass" finished-at="2022-02-02T23:50:27 EST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRunner@1bb5a082]" started-at="2022-02-02T23:50:27 EST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-02T23:50:48 EST" duration-ms="21624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dell login and Search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@1bb5a082]" started-at="2022-02-02T23:50:48 EST" name="tearDownClass" finished-at="2022-02-02T23:50:48 EST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="closeURL()[pri:0, instance:TestRunner.TestRunner@1bb5a082]" started-at="2022-02-02T23:50:48 EST" name="closeURL" finished-at="2022-02-02T23:50:54 EST" duration-ms="5898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeURL -->
+      </class> <!-- TestRunner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
